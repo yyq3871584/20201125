@@ -61,7 +61,7 @@ namespace ConsoleApp1
                 p.Prev.Next = p.Next;
                 p.Next.Prev = p.Prev;
             }
-            else//只剩下两人时
+            else//只剩下两人时.
             {
                 p.Prev.Next = null;
                 p.Prev.Prev = null;
